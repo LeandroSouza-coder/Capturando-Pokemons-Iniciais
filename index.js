@@ -19,3 +19,9 @@ if (pokemonEscolhido) {
 } else {
     print("Escolha inválida! Selecione um número válido (1, 2, 4 ou 5).");
 }
+
+/*Correções e melhorias:
+- Corrigido os valores faltantes nos else if – Antes, os valores para Charmander e Pikachu estavam ausentes.
+- Adicionada validação para entrada inválida – Se o usuário inserir um número que não está na lista, ele recebe uma mensagem de erro.
+- Garantido que o pokémon escolhido sempre tenha um valor antes da saída – Isso previne erros caso o número inserido não corresponda 
+a nenhum Pokémon.*/
